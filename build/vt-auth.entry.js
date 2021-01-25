@@ -2657,7 +2657,7 @@ const NAKAMA_SESSION_TOKEN_KEY = 'e0d4a3329c7b4a65829be4439d989068';
 const NAKAMA_SERVER_KEY = 'febdf5b2426347adb56163d1402c2f57';
 const NAKAMA_HOST = '143.110.150.101';
 const NAKAMA_PORT = '7350';
-const NAKAMA_SSL = false;
+const NAKAMA_SSL = true;
 const NAKAMA_CLIENT = new Client(NAKAMA_SERVER_KEY, NAKAMA_HOST, NAKAMA_PORT, NAKAMA_SSL);
 var NakamaAuthenticationMethod;
 (function (NakamaAuthenticationMethod) {
@@ -3048,8 +3048,8 @@ const VtAuth = class {
     try {
       await nakama.authenticateEmail(this.email, this.password);
       await this.alert({
-        header: 'Account Created',
-        message: `Created account for: <b>${this.email} ${this.password}</b>`,
+        header: 'Sign In Suceeded',
+        message: `Created account for: <b>${this.email}</b>`,
         buttons: [{ text: 'OK' }],
       });
       const router = document.querySelector("ion-router");
