@@ -1,5 +1,5 @@
-import { g as getIonMode, c as config } from './ionic-global-4ed1374e.js';
-import { g as getElementRoot, a as removeEventListener, b as addEventListener } from './helpers-a8b1c2b4.js';
+import { g as getIonMode, c as config } from './ionic-global-a718b22d.js';
+import { g as getElementRoot, a as removeEventListener, b as addEventListener } from './helpers-b08b50af.js';
 import { OVERLAY_BACK_BUTTON_PRIORITY } from './hardware-back-button-508e48cf.js';
 
 let lastId = 0;

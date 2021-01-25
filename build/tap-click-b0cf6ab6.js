@@ -1,4 +1,4 @@
-import { n as now, p as pointerCoord } from './helpers-a8b1c2b4.js';
+import { n as now, p as pointerCoord } from './helpers-b08b50af.js';
 
 const startTapClick = (config) => {
   let lastTouch = -MOUSE_WAIT * 10;

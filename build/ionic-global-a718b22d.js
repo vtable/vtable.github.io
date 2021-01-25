@@ -1,4 +1,4 @@
-import { g as getMode, C as Context, s as setMode } from './index-0f664595.js';
+import { g as getMode, C as Context, s as setMode } from './index-9719ee72.js';
 
 const getPlatforms = (win) => setupPlatforms(win);
 const isPlatform = (winOrPlatform, platform) => {

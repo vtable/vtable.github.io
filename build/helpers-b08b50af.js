@@ -222,4 +222,4 @@ const debounce = (func, wait = 0) => {
   };
 };
 
-export { removeEventListener as a, addEventListener as b, getAriaLabel as c, renderHiddenInput as d, clamp as e, findItemLabel as f, getElementRoot as g, debounceEvent as h, inheritAttributes as i, isEndSide as j, assert as k, hasShadowDom as l, debounce as m, now as n, pointerCoord as p, raf as r };
+export { removeEventListener as a, addEventListener as b, getAriaLabel as c, renderHiddenInput as d, clamp as e, findItemLabel as f, getElementRoot as g, assert as h, isEndSide as i, debounceEvent as j, inheritAttributes as k, debounce as l, hasShadowDom as m, now as n, pointerCoord as p, raf as r };

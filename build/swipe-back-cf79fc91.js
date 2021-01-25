@@ -1,4 +1,4 @@
-import { e as clamp } from './helpers-a8b1c2b4.js';
+import { e as clamp } from './helpers-b08b50af.js';
 import { createGesture } from './index-da9ada32.js';
 
 const createSwipeBackGesture = (el, canStartHandler, onStartHandler, onMoveHandler, onEndHandler) => {

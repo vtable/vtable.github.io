@@ -1,4 +1,4 @@
-import { h as getAssetPath } from './index-0f664595.js';
+import { h as getAssetPath } from './index-9719ee72.js';
 
 let CACHED_MAP;
 const getIconMap = () => {

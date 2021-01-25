@@ -1,14 +1,14 @@
-import { i as ionicCoreGlobalScript } from './ionic-global-4ed1374e.js';
-import './utils-caa3aff8.js';
-import './animation-582baced.js';
-import './index-40a014d0.js';
-import './ios.transition-691917fc.js';
-import './md.transition-0d901ac6.js';
+import './ionic-global-a718b22d.js';
+import './utils-4590566c.js';
+import './animation-138e595f.js';
+import './index-5e750e55.js';
+import './ios.transition-12c4032c.js';
+import './md.transition-c21cb91b.js';
 import './cubic-bezier-ed243a9b.js';
 import './index-da9ada32.js';
 import './index-cc97b114.js';
-import './index-4f4e7344.js';
-import './overlays-c9a37290.js';
+import './index-bc02785a.js';
+import './overlays-4199b0b7.js';
 
 const setupConfig = (config) => {
   const win = window;
@@ -35,15 +35,4 @@ const getMode = () => {
   return 'md';
 };
 
-const appGlobalScript = () => {
-  setupConfig({
-  // mode: 'ios'
-  });
-};
-
-const globalScripts = () => {
-  appGlobalScript();
-  ionicCoreGlobalScript();
-};
-
-export { globalScripts as g };
+export { setupConfig as s };

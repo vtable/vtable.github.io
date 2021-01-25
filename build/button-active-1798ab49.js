@@ -1,4 +1,4 @@
-import { e as writeTask } from './index-0f664595.js';
+import { e as writeTask } from './index-9719ee72.js';
 import { createGesture } from './index-da9ada32.js';
 import { h as hapticSelectionStart, a as hapticSelectionChanged, b as hapticSelectionEnd } from './haptic-43a3db5a.js';
 

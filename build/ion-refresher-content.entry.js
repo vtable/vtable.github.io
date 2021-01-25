@@ -1,5 +1,5 @@
-import { r as registerInstance, j as h, m as Host, n as getElement } from './index-0f664595.js';
-import { g as getIonMode, c as config, a as isPlatform } from './ionic-global-4ed1374e.js';
+import { r as registerInstance, j as h, k as Host, n as getElement } from './index-9719ee72.js';
+import { g as getIonMode, c as config, a as isPlatform } from './ionic-global-a718b22d.js';
 import { s as sanitizeDOMString } from './index-cc97b114.js';
 import { S as SPINNERS } from './spinner-configs-9536fae2.js';
 

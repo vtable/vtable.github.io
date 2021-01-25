@@ -1,4 +1,4 @@
-import { m as menuController } from './index-4f4e7344.js';
+import { m as menuController } from './index-bc02785a.js';
 
 // Given a menu, return whether or not the menu toggle should be visible
 const updateVisibility = async (menu) => {

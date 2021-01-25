@@ -1,8 +1,4 @@
-import { r as registerInstance, j as h } from './index-0f664595.js';
-
-function sayHello() {
-  return Math.random() < 0.5 ? 'Hello' : 'Hola';
-}
+import { r as registerInstance, j as h } from './index-9719ee72.js';
 
 const appProfileCss = "";
 
@@ -19,8 +15,8 @@ const AppProfile = class {
   }
   render() {
     return [
-      h("ion-header", null, h("ion-toolbar", { color: "primary" }, h("ion-buttons", { slot: "start" }, h("ion-back-button", { defaultHref: "/" })), h("ion-title", null, "Profile: ", this.name))),
-      h("ion-content", { class: "ion-padding" }, h("p", null, sayHello(), "! My name is ", this.formattedName(), ". My name was passed in through a route param!"), h("ion-item", null, h("ion-label", null, "Setting (", this.state.toString(), ")"), h("ion-toggle", { checked: this.state, onIonChange: ev => (this.state = ev.detail.checked) }))),
+      h("ion-header", { translucent: true }, h("ion-toolbar", null, h("ion-buttons", { slot: "start" }, h("ion-back-button", { defaultHref: "/" })), h("ion-title", null, this.name))),
+      h("ion-content", { class: "ion-padding" }, h("p", null, "My name is ", this.formattedName(), ". My name was passed in through a route param!"), h("ion-item", null, h("ion-label", null, "Setting (", this.state.toString(), ")"), h("ion-toggle", { checked: this.state, onIonChange: ev => (this.state = ev.detail.checked) }))),
     ];
   }
 };
