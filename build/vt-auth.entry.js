@@ -2655,7 +2655,7 @@ function sayHello() { return Math.random() < 0.5 ? 'Hello' : 'Hola'; }
 const NAKAMA_AUTHENTICATION_KEY = '7d90012548e0431d868178b78bc03658';
 const NAKAMA_SESSION_TOKEN_KEY = 'e0d4a3329c7b4a65829be4439d989068';
 const NAKAMA_SERVER_KEY = 'febdf5b2426347adb56163d1402c2f57';
-const NAKAMA_HOST = '143.110.150.101';
+const NAKAMA_HOST = 'garettbass.online'; //'143.110.150.101';
 const NAKAMA_PORT = '7350';
 const NAKAMA_SSL = true;
 const NAKAMA_CLIENT = new Client(NAKAMA_SERVER_KEY, NAKAMA_HOST, NAKAMA_PORT, NAKAMA_SSL);
@@ -3062,7 +3062,7 @@ const VtAuth = class {
           message: e.message,
           buttons: [{ text: 'OK' }],
         });
-        this.password = null;
+        // this.password = null;
       }
       throw e;
     }
