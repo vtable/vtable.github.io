@@ -7,7 +7,7 @@ const AppRoot = class {
     registerInstance(this, hostRef);
   }
   connectedCallback() {
-    document.body.addEventListener('touchstart', (e) => {
+    document.body.ontouchstart = (e) => {
       var width = window.innerWidth;
       var margin = width / 10;
       var touch = e.touches[0];
@@ -17,7 +17,7 @@ const AppRoot = class {
           e.preventDefault();
         }
       }
-    });
+    };
   }
   render() {
     return (h("ion-app", null, h("ion-router", { useHash: false }, h("ion-route", { url: "/", component: "app-home" }), h("ion-route", { url: "/auth", component: "vt-auth" }), h("ion-route", { url: "/profile/:name", component: "app-profile" })), h("ion-nav", null)));
