@@ -1,6 +1,6 @@
 {
-  "name": "ionic-pwa",
-  "short_name": "ionic-pwa",
+  "name": "vtable",
+  "short_name": "vtable",
   "start_url": "/",
   "display": "standalone",
   "icons": [{
